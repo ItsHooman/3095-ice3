@@ -19,6 +19,7 @@ class OrderServiceApplicationTests {
     @ServiceConnection
     static PostgreSQLContainer<?> postgreSQLContainer = new PostgreSQLContainer<>("postgres");
 
+
     @LocalServerPort
     private Integer port;
 
